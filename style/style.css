@@ -88,3 +88,38 @@ body {
 .wc-mini-img {
   border-radius: 20px;
 }
+/********************* Users_section******************* */
+.Users_section {
+  padding: 50px;
+  background-color: #f5f8ff;
+}
+.Users_contean {
+  background-color: #e5e7ff;
+  border-radius: 12px;
+}
+.Users_title {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 38px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.Users_items {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+.Users_items h1 {
+  font-size: 72px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #4e47ff;
+}
+.Users_items p {
+  margin-top: -60px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
