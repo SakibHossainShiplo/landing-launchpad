@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hader_bg {
+  background-image: url(../Assets/Hero-bg.png);
+  background-position: center;
+  background-size: cover;
+}
+.nav_contant {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_logo {
+  font-size: 34px;
+  font-weight: 700;
+  color: #4e47ff;
+}
+.nav_btn {
+  padding: 12px 36px;
+  border-radius: 5px;
+  background-color: #4e47ff;
+  color: white;
+  border: none;
+}
