@@ -145,8 +145,11 @@ body {
 }
 .single_card {
   background-color: white;
-  padding: 15px;
+  padding: 20px;
   border-radius: 10px;
+}
+.single_card p {
+  font-size: 18px;
 }
 .Users_cad_info {
   display: flex;
@@ -163,4 +166,38 @@ body {
 .Users_cad_info p {
   margin: 0px;
   padding: 0px;
+}
+
+/*********************** Ready_section********************* */
+.Ready_section {
+  background-color: #f5f8ff;
+}
+.ready_content {
+  padding: 70px 0px;
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+}
+.ready_content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.ready_content p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #989898;
+}
+.ready_content button {
+  padding: 12px 36px;
+  border-radius: 5px;
+  background-color: #4e47ff;
+  color: white;
+  border: none;
+  font-family: "Raleway", sans-serif;
+}
+.wc-img img {
+  margin-top: 30px;
+  border-radius: 50px;
 }
