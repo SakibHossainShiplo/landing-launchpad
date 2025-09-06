@@ -96,6 +96,8 @@ body {
 .Users_contean {
   background-color: #e5e7ff;
   border-radius: 12px;
+  max-width: 1140px;
+  margin: auto;
 }
 .Users_title {
   text-align: center;
@@ -108,6 +110,7 @@ body {
   display: flex;
   text-align: center;
   justify-content: space-around;
+
   padding: 20px;
 }
 .Users_items h1 {
@@ -122,4 +125,42 @@ body {
   font-weight: 400;
   text-align: center;
   font-family: "Raleway", sans-serif;
+}
+/******************* Users_cad_section****************** */
+.Users_cad_section {
+  padding: 50px;
+  background-color: #f5f8ff;
+}
+.Users_cad_title {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.Users_cad_content {
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+  gap: 20px;
+}
+.single_card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+.Users_cad_info {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.Users_cad_info img {
+  border-radius: 100%;
+}
+.Users_cad_info h5 {
+  margin: 0px;
+  padding: 0px;
+}
+.Users_cad_info p {
+  margin: 0px;
+  padding: 0px;
 }
