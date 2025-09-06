@@ -201,3 +201,40 @@ body {
   margin-top: 30px;
   border-radius: 50px;
 }
+/************************* logine_content**************** */
+.logine_section {
+  background-color: #f5f8ff;
+  padding: 100px 0px;
+}
+
+.logine_content {
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+  justify-content: space-around;
+}
+.login_title {
+  font-size: 80px;
+  font-weight: 700;
+}
+input,
+textarea {
+  width: 130%;
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.login_from {
+  gap: 20px;
+}
+.Get_btn {
+  width: 140%;
+  background-color: white;
+  padding: 15px;
+  background-color: #4e47ff;
+  color: white;
+  margin-top: 15px;
+}
